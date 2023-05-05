@@ -1,3 +1,6 @@
+body{
+    width: 100%;
+}
 *{
     font-family: 'Libre Baskerville', serif;
     font-family: 'Merriweather', serif;
@@ -77,6 +80,7 @@
     margin-bottom: 20px;
     display: inline-block;
     border-radius: 20px;
+    
   }
   .item-1,
   .item-2,
@@ -200,7 +204,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  @media (min-width: 840px) {
+   @media (min-width: 1024px) {
     .responsive {
       display: none;
     }
@@ -256,7 +260,7 @@
       align-items: flex-start;
       flex-direction: column;
     }
-  }
+  }  
   .item-3 > h2 {
     display: inline-block;
     position: relative;
