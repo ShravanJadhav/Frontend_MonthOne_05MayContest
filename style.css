@@ -1,6 +1,4 @@
-body{
-    width: 100%;
-}
+ 
 *{
     font-family: 'Libre Baskerville', serif;
     font-family: 'Merriweather', serif;
@@ -15,6 +13,10 @@ body{
   'opsz' 48;
    
 }
+
+.last-item .arrow:hover{
+    cursor: pointer;
+ }
   .color {
     background-color: #333333;
   }
@@ -62,7 +64,7 @@ body{
   }
   
   .item-1 img{
-    height: 700px;
+    height: 800px;
   }
   .item-1 > h2,
   .item-2-upper > div > h2 {
